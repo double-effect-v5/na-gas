@@ -205,23 +205,45 @@ export default function DirectInjectionSection() {
             variants={fadeUp}
             custom={1}
           >
-            <div className="glass-card rounded-2xl p-8 h-full flex flex-col justify-center gap-6 border border-primary/10">
-              <span className="inline-block self-start px-3 py-1 rounded-full text-xs font-semibold bg-primary/10 text-primary border border-primary/20">
-                {lang === "bg" ? "Защо NA-GAS.BG?" : "Why NA-GAS.BG?"}
-              </span>
-              <p className="text-muted-foreground leading-relaxed">
-                Вече над <strong className="text-foreground">10 години</strong> монтираме газови уредби в София и регионa.
-                Зад всеки монтаж стои <strong className="text-foreground">екип от сертифицирани техници</strong> с дълбоко
-                познаване на съвременните двигателни системи — от класически атмосферни до{" "}
-                <strong className="text-foreground">турбо и директно впръскване</strong>.
-              </p>
-              <p className="text-muted-foreground leading-relaxed">
-                Работим само с марки, доказали се на европейския пазар —{" "}
-                <strong className="text-foreground">KME, Romano, AC STAG, AG</strong> и др. Всеки монтаж завършва с{" "}
-                <strong className="text-foreground">пробен път, настройка на картата</strong> и предаване на пълна
-                документация. Не продаваме просто уредба — предлагаме{" "}
-                <strong className="text-foreground">дългосрочно партньорство</strong> и спокойствие зад волана.
-              </p>
+            <div className="glass-card rounded-2xl p-8 h-full flex flex-col justify-between border border-primary/10">
+              <div>
+                <span className="inline-block px-3 py-1 rounded-full text-xs font-semibold bg-primary/10 text-primary border border-primary/20 mb-6">
+                  {lang === "bg" ? "Защо NA-GAS.BG?" : "Why NA-GAS.BG?"}
+                </span>
+                <p className="text-muted-foreground leading-relaxed mb-5">
+                  Вече над <strong className="text-foreground">10 години</strong> монтираме газови уредби в София и региона.
+                  Зад всеки монтаж стои <strong className="text-foreground">екип от сертифицирани техници</strong> с дълбоко
+                  познаване на съвременните двигателни системи — от класически атмосферни до{" "}
+                  <strong className="text-foreground">турбо и директно впръскване</strong>.
+                </p>
+                <p className="text-muted-foreground leading-relaxed mb-5">
+                  Работим само с марки, доказали се на европейския пазар —{" "}
+                  <strong className="text-foreground">KME, Romano, AC STAG, AG</strong> и др. Всеки монтаж завършва с{" "}
+                  <strong className="text-foreground">пробен път, настройка на картата</strong> и предаване на пълна
+                  документация.
+                </p>
+                <p className="text-muted-foreground leading-relaxed">
+                  Не продаваме просто уредба — предлагаме{" "}
+                  <strong className="text-foreground">дългосрочно партньорство</strong> и спокойствие зад волана.
+                  Клиентите ни се връщат при нас, защото знаят, че ще получат{" "}
+                  <strong className="text-foreground">честна цена, качествен монтаж</strong> и поддръжка когато имат нужда.
+                </p>
+              </div>
+              {/* Bottom stats */}
+              <div className="grid grid-cols-3 gap-3 mt-8 pt-6 border-t border-border">
+                <div className="text-center">
+                  <p className="text-2xl font-bold text-primary">500+</p>
+                  <p className="text-xs text-muted-foreground mt-1">Монтажа</p>
+                </div>
+                <div className="text-center">
+                  <p className="text-2xl font-bold text-primary">10+</p>
+                  <p className="text-xs text-muted-foreground mt-1">Години опит</p>
+                </div>
+                <div className="text-center">
+                  <p className="text-2xl font-bold text-primary">24м.</p>
+                  <p className="text-xs text-muted-foreground mt-1">Гаранция</p>
+                </div>
+              </div>
             </div>
           </motion.div>
 
