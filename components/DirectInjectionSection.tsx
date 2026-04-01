@@ -207,20 +207,20 @@ export default function DirectInjectionSection() {
           >
             <div className="glass-card rounded-2xl p-8 h-full flex flex-col justify-center gap-6 border border-primary/10">
               <span className="inline-block self-start px-3 py-1 rounded-full text-xs font-semibold bg-primary/10 text-primary border border-primary/20">
-                {lang === "bg" ? "За Нас" : "About Us"}
+                {lang === "bg" ? "Защо NA-GAS.BG?" : "Why NA-GAS.BG?"}
               </span>
               <p className="text-muted-foreground leading-relaxed">
-                От <strong className="text-foreground">NA-GAS.BG</strong> предлагаме монтаж на газови инжекционни уредби от{" "}
-                <strong className="text-foreground">последна генерация</strong>. Решенията, независимо от техния клас, са актуални модели от{" "}
-                <strong className="text-foreground">реномирани производители</strong> на автомобилни газови системи. Използваме{" "}
-                <strong className="text-foreground">сертифицирани компоненти</strong>, отговарящи на всички одобрени стандарти в{" "}
-                <strong className="text-foreground">Европейския съюз</strong>.
+                Вече над <strong className="text-foreground">10 години</strong> монтираме газови уредби в София и регионa.
+                Зад всеки монтаж стои <strong className="text-foreground">екип от сертифицирани техници</strong> с дълбоко
+                познаване на съвременните двигателни системи — от класически атмосферни до{" "}
+                <strong className="text-foreground">турбо и директно впръскване</strong>.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                Всички съпровождащи елементи като тръби, маркучи, скоби и фитинги са от{" "}
-                <strong className="text-foreground">висок клас</strong>, което допринася за{" "}
-                <strong className="text-foreground">по-дълъг пробег</strong>,{" "}
-                <strong className="text-foreground">надеждност</strong> и спокойствие при експлоатация.
+                Работим само с марки, доказали се на европейския пазар —{" "}
+                <strong className="text-foreground">KME, Romano, AC STAG, AG</strong> и др. Всеки монтаж завършва с{" "}
+                <strong className="text-foreground">пробен път, настройка на картата</strong> и предаване на пълна
+                документация. Не продаваме просто уредба — предлагаме{" "}
+                <strong className="text-foreground">дългосрочно партньорство</strong> и спокойствие зад волана.
               </p>
             </div>
           </motion.div>
